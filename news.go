@@ -79,7 +79,7 @@ func main() {
     table.WithColumns(columns),
     table.WithRows(rows),
     table.WithFocused(true),
-    table.WithHeight(7),
+    table.WithHeight(len(stories) + 1),
     )
 
   s := table.DefaultStyles()
